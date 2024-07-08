@@ -10,9 +10,10 @@ const PlayButton = () => (
     <span className="ml-3 text-white">Watch the playlist (guide)</span>
   </button>
 );
-
+{/* <section className="bg-gradient-to-b from-black-50 to white shadow-inner"> */}
 const VideoSection = () => (
-  <section className="bg-gradient-to-b from-black-50 to white shadow-inner">
+  
+    <section className="bg-gradient">
     <div className="max-w-7xl mx-auto">
       <div className="flex flex-col max-w-4xl mx-auto pt-8 md:pt-12 lg:pt-16">
         <div className="mb-16 text-center">
