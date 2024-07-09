@@ -79,10 +79,11 @@ export const Pricing = () => {
                 </span>{" "}
                 {pricing.popular === PopularPlanType.YES ? (
                   <Badge variant="secondary" className="text-sm text-primary">
-                    Most popular
+                    Prime
                   </Badge>
                 ) : null}
               </CardTitle>
+              {/*prime-  plan is optimal or highly valued, much like how "prime" is used to describe top quality or importance in various contexts.  */}
               <CardDescription>{pricing.description}</CardDescription>
             </CardHeader>
             <hr className="my-2 lg:my-4 border-t-2 border-gray-200" />
