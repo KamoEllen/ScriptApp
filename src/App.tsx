@@ -1,4 +1,3 @@
-import { About } from "./components/About";
 import { Cta } from "./components/Cta";
 import { FAQ } from "./components/FAQ";
 import { Footer } from "./components/Footer";
@@ -21,9 +20,6 @@ function App() {
       <Hero />
       </section>
 
-      <section id="about">
-      <About />
-      </section>
 
       <section id="features">
       <HowItWorks />
@@ -56,3 +52,5 @@ function App() {
 }
 
 export default App;
+
+
