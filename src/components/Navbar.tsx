@@ -12,6 +12,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
@@ -23,7 +24,7 @@ interface RouteProps {
 }
 
 const routeList: RouteProps[] = [
-  {
+{
     href: "#home",
     label: "Home",
   },
@@ -51,20 +52,6 @@ export const Navbar = () => {
     <header className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
-         
-          {/*
-          <NavigationMenuItem className="font-bold flex items-center">
-            <a
-              rel="noreferrer noopener"
-              href="/"
-              className="flex items-center space-x-2"
-            >
-              <LogoIcon />
-              <span className="text-m">The Script App</span>
-            </a>
-          </NavigationMenuItem>
-          */}
-          
           <NavigationMenuItem className="font-bold flex">
             <a
               rel="noreferrer noopener"
@@ -75,7 +62,7 @@ export const Navbar = () => {
               The Script App
             </a>
           </NavigationMenuItem>
-          
+
           {/* mobile */}
           <span className="flex md:hidden">
             <ModeToggle />
@@ -96,7 +83,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    The Script App
+                    Shadcn/React
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
@@ -134,7 +121,7 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2">
-            
+           
 
             <ModeToggle />
           </div>
