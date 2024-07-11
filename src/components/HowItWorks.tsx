@@ -38,6 +38,24 @@ const features: FeatureProps[] = [
     description:
       "Enjoy a user-friendly customisable interface designed to enhance your workflow and elevate the script supervision experience.",
   },
+   {
+    icon: <CheckCheck className="text-green-500"  />,
+    title: "Storage Integration",
+    description:
+      "Securely store and access folders, photos and reports from anywhere.",
+  },
+  {
+    icon: <CheckCheck className="text-green-500"  />,
+    title: "Real-Time Collaboration",
+    description:
+      "Export your sides and reports and share it with your team , ensuring everyone is on the same page throughout the production process.",
+  },
+  {
+    icon: <CheckCheck  className="text-green-500" />,
+    title: "Intuitive User Experience",
+    description:
+      "Enjoy a user-friendly customisable interface designed to enhance your workflow and elevate the script supervision experience.",
+  },
 ];
 
 export const HowItWorks = () => {
