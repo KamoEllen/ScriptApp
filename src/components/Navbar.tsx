@@ -34,6 +34,7 @@ export const Navbar = () => {
     <header className="sticky top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-14 px-4 max-w-screen-xl mx-auto flex justify-between items-center">
+          {/* Logo and Script Name */}
           <NavigationMenuItem className="font-bold flex items-center">
             <a rel="noreferrer noopener" href="/" className="font-bold text-xl flex items-center">
               <div className="flex items-center">
@@ -43,6 +44,26 @@ export const Navbar = () => {
             </a>
           </NavigationMenuItem>
 
+          {/* Page Contents (Links) */}
+          <nav className="hidden md:flex gap-4 items-center">
+            {routeList.map(({ href, label }: RouteProps) => (
+              <a
+                key={label}
+                href={href}
+                className={`${buttonVariants({ variant: "ghost" })} ${activeLink === href ? "text-blue-500" : "text-gray-700 hover:text-blue-500"}`}
+                onClick={() => handleLinkClick(href)}
+              >
+                {label}
+              </a>
+            ))}
+          </nav>
+
+          {/* Mode Toggle */}
+          <div className="flex items-center">
+            <ModeToggle />
+          </div>
+
+          {/* Mobile Menu Trigger */}
           <span className="flex md:hidden items-center">
             <ModeToggle />
 
@@ -72,27 +93,12 @@ export const Navbar = () => {
               </SheetContent>
             </Sheet>
           </span>
-
-          <nav className="hidden md:flex gap-4 items-center">
-            {routeList.map(({ href, label }: RouteProps) => (
-              <a
-                key={label}
-                href={href}
-                className={`${buttonVariants({ variant: "ghost" })} ${activeLink === href ? "text-blue-500" : "text-gray-700 hover:text-blue-500"}`}
-              >
-                {label}
-              </a>
-            ))}
-          </nav>
-
-          <div className="hidden md:flex gap-4 items-center">
-            <ModeToggle />
-          </div>
         </NavigationMenuList>
       </NavigationMenu>
     </header>
   );
 };
+
 
 {/*
 
