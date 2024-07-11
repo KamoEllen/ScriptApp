@@ -17,7 +17,7 @@ export const Hero = () => {
               elevate
             </span>{" "}
             your script supervision  {" "}
-            experience?{" "}
+            <span className="text-green-500 underline" >experience?</span>
           </h2>
         </main>
 
