@@ -1,5 +1,6 @@
 import { Cta } from "./components/Cta";
 import { FAQ } from "./components/FAQ";
+import { ContactUs } from "./components/ContactUs";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { HowItWorks } from "./components/HowItWorks";
@@ -36,10 +37,15 @@ function App() {
 
       <section id="contact">
       <Newsletter />
+        
       </section>
 
       <section id="faq">
       <FAQ />
+      </section>
+
+         <section id="faq">
+      <ContactUs />
       </section>
 
       <section id="footer">
