@@ -10,14 +10,14 @@ export const Hero = () => {
             <span className="inline bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text">
               Ready 
             </span>{" "}
-            to make 
+            to  
           </h1>{" "}
-          script supervision{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-green-400 via-green-500 to-blue-500 text-transparent bg-clip-text">
-              simpler
+              elevate
             </span>{" "}
-            and more ? {" "}
+            your script supervision  {" "}
+            experience?{" "}
           </h2>
         </main>
 
