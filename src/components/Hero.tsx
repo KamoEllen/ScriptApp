@@ -22,7 +22,7 @@ export const Hero = () => {
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          From import to export, editing to automatic form filling, The Script App empowers you to manage scripts and continuity reports with ease , saving you time and effort.
+          From import to export, editing to automatic form filling.The Script App empowers you to manage scripts and continuity reports with ease , saving you time and effort.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
