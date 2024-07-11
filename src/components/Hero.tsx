@@ -13,7 +13,7 @@ export const Hero = () => {
             to  
           </h1>{" "}
           <h2 className="inline">
-            <span className="inline bg-gradient-to-r from-gray-400 via-green-500 to-blue-500 text-transparent bg-clip-text">
+            <span className="inline bg-gradient-to-r from-gray-400 via-green-500 to-gray-500 text-transparent bg-clip-text">
               elevate
             </span>{" "}
             your script supervision  {" "}
