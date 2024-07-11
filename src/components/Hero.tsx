@@ -47,3 +47,5 @@ export const Hero = () => {
     </section>
   );
 };
+
+
