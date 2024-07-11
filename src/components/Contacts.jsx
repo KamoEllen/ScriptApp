@@ -1,5 +1,5 @@
-export default () => {
 
+export const ContactUs = () => {
     const contactMethods = [
         {
             icon:
