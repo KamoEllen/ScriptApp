@@ -73,14 +73,14 @@ export const Navbar = () => {
             </a>
           </NavigationMenuItem>
 
-          {/* h-5 w-5 */}
+         
           <span className="flex md:hidden items-center">
             <ModeToggle />
 
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger className="px-2">
                 <Menu
-                  className="flex md:hidden h-2 w-2"
+                  className="flex md:hidden h-5 w-5"
                   onClick={() => setIsOpen(true)}
                 >
                   <span className="sr-only">Menu Icon</span>
