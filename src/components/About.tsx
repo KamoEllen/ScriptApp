@@ -1,4 +1,4 @@
-import about from "../assets/About us page-cuate.svg";
+import about from "../assets/about-us-page-cuate.svg";
 
 import { Statistics } from "./Statistics";
 //import pilot from "../assets/pilot.png";
