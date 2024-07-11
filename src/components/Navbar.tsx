@@ -87,12 +87,12 @@ export const Navbar = () => {
                   <span className="sr-only">Menu Icon</span>
                 </Menu>
               </SheetTrigger>
-              {/* mt-4 now is -2 */}
+            
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">The Script App</SheetTitle>
                 </SheetHeader>
-                <nav className="flex flex-col justify-center items-center gap-2 mt-2">
+                <nav className="flex flex-col justify-center items-center gap-1 mt-4">
                   {routeList.map(({ href, label }: RouteProps) => (
                     <a
                       rel="noreferrer noopener"
