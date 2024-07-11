@@ -1,5 +1,4 @@
-import one from '../assets/Recording-a-movie-cuate.svg'; // Adjust the path to your image
-
+import one from '../assets/Design community-pana.svg';
 export const HeroCards = () => {
   return (
     <div className="hidden lg:flex flex-row flex-wrap gap-8 relative">
@@ -15,3 +14,4 @@ export const HeroCards = () => {
 {/*
 <a href="https://storyset.com/work">Work illustrations by Storyset</a>
 */}
+//import one from '../assets/Recording-a-movie-cuate.svg'; Adjust the path to your image
