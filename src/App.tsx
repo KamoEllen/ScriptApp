@@ -1,7 +1,7 @@
 import { Cta } from "./components/Cta";
 import { FAQ } from "./components/FAQ";
 import { About } from "./components/About";
-import { ContactUs } from "./components/ContactUs";
+
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { HowItWorks } from "./components/HowItWorks";
