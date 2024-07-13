@@ -25,9 +25,9 @@ const FAQList: FAQProps[] = [
   },
   {
     question:
-      "Can I skip the trial and subscribe directly?",
+      "How did The Script App come to be?",
     answer:
-      "Yes, if you prefer, you can skip the 24-hour trial and subscribe directly by paying £20 per month. This allows you to start using Script App immediately without waiting for the trial period to end.",
+      "With extensive experience in the production industry, we recognized the challenges of script management and the need for accuracy and efficiency. This led us to create The Script App, designed to elevate workflow and save time on administrative tasks.",
     value: "item-3",
   },
   {
