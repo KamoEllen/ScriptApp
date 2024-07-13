@@ -27,7 +27,7 @@ function App() {
       <HowItWorks />
       </section>
       
-     <section id="tutorial">
+     <section id="tutorials">
       <VideoPlaylist />
      </section>
       
