@@ -74,7 +74,7 @@ export const Pricing = () => {
           >
             <CardHeader>
               <CardTitle>
-                <span className="inline bg-gradient-to-r from-green-400 via-green-500 to-blue-500 text-transparent bg-clip-text">
+                <span className="inline bg-gradient-to-r from-green-300 via-green-400 to-green-500 text-transparent bg-clip-text">
                   {pricing.title}
                 </span>
               </CardTitle>
