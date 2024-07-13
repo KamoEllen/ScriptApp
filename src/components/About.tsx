@@ -3,11 +3,12 @@ import { Statistics } from "./Statistics";
 
 export const About = () => {
   return (
-    <hr className="w-11/12 mx-auto" />
-
-      <div className="container py-24 sm:py-32">
+    
    
     <section id="about" className="container my-6 sm:my-8">
+      <hr className="w-11/12 mx-auto" />
+
+      <div className="container py-24 sm:py-32">
       <div className="bg-white border rounded-lg py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-6 md:gap-12">
           <img
@@ -36,8 +37,9 @@ export const About = () => {
           </div>
         </div>
       </div>
-    </section>
-     </div>
+        </div>
      <hr className="w-11/12 mx-auto" />
+    </section>
+     
   );
 };
