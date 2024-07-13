@@ -40,8 +40,9 @@ const pricingList: PricingProps[] = [
       "Efficient script editing",
       "Auto-fill repetitive fields",
       "Real-time collaboration",
-      "24/7 customer support",
       "Track changes",
+      "24/7 customer support",
+      
     ],
   },
 ];
