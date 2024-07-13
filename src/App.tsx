@@ -37,7 +37,7 @@ function App() {
       </section>
 
       <section id="contact">
-      <Newsletter />
+        <About />
         
       </section>
 
@@ -45,8 +45,9 @@ function App() {
       <FAQ />
       </section>
 
-         <section id="contactusagain">
-      <About />
+         <section id="news">
+    
+           <Newsletter />
       </section>
 
       <section id="footer">
