@@ -6,7 +6,7 @@ export const About = () => {
     
    
     <section id="about" className="container my-6 sm:my-8">
-      <hr className="w-11/12 mx-auto" />
+      
 
       <div className="container py-24 sm:py-32">
       <div className="bg-white border rounded-lg py-12">
@@ -38,7 +38,7 @@ export const About = () => {
         </div>
       </div>
         </div>
-     <hr className="w-11/12 mx-auto" />
+    
     </section>
      
   );
