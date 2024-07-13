@@ -1,10 +1,37 @@
+import { useState } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 
 export const Newsletter = () => {
-  const handleSubmit = (e: any) => {
+  const [email, setEmail] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
+
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Subscribed!");
+    if (validateEmail(email)) {
+      console.log("Email is valid, proceed to subscribe:", email);
+      // Here you can proceed with your subscription logic, e.g., sending the email
+      // Reset the form after submission
+      setEmail("");
+      setMessage("Email successfully sent!");
+      setTimeout(() => {
+        setMessage("");
+      }, 3000); // Clear the message after 3 seconds
+    } else {
+      console.log("Invalid email. Please enter a valid email address.");
+      // You can display an error message to the user if needed
+    }
+  };
+
+  const validateEmail = (email: string) => {
+    // A simple email validation using regex
+    const re =
+      /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    return re.test(email);
+  };
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setEmail(e.target.value);
   };
 
   return (
@@ -27,12 +54,20 @@ export const Newsletter = () => {
           onSubmit={handleSubmit}
         >
           <Input
+            type="email"
             placeholder="enter your email"
             className="bg-muted/50 dark:bg-muted/80 "
             aria-label="email"
+            value={email}
+            onChange={handleChange}
+            required
           />
-          <Button>Subscribe</Button>
+          <Button type="submit">Subscribe</Button>
         </form>
+
+        {message && (
+          <p className="text-green-500 text-center mt-4">{message}</p>
+        )}
       </div>
 
       <hr className="w-11/12 mx-auto" />
