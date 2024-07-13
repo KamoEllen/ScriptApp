@@ -60,7 +60,7 @@ export const Pricing = () => {
         Access
       </h2>
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
-        Enjoy 24h free trial with us and only pay 20 pounds a month after that. Cancel anytime within the first 30 days.
+        Enjoy 24h free trial on us and only pay 20 pounds a month after that. Cancel anytime within the first 30 days.
       </h3>
       <div className="flex justify-center">
         <div className="w-full lg:w-3/4 xl:w-2/3">
