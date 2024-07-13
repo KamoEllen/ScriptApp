@@ -1,4 +1,4 @@
-import { Cta } from "./components/Cta";
+import VideoPlaylist from "./components/VideoPlaylist";
 import { FAQ } from "./components/FAQ";
 import { About } from "./components/About";
 
@@ -28,7 +28,7 @@ function App() {
       </section>
       
      <section id="tutorial">
-      <Cta />
+      <VideoPlaylist />
      </section>
       
       <Testimonials />
