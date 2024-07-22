@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 
 const Explain: React.FC = () => {
-    const [showPopup, setShowPopup] = useState<boolean>(false); // Explicitly declare type for showPopup
-    const [videoUrl, setVideoUrl] = useState<string>(''); // Explicitly declare type for videoUrl
+    const [showPopup, setShowPopup] = useState<boolean>(false);
+    const [videoUrl, setVideoUrl] = useState<string>('');
 
     const openPopup = (url: string) => {
-        setVideoUrl(url);
+        // Extract video ID from the YouTube URL
+        const videoId = url.split('v=')[1];
+        setVideoUrl(`https://www.youtube.com/embed/${videoId}`);
         setShowPopup(true);
     };
 
@@ -14,61 +16,14 @@ const Explain: React.FC = () => {
         setShowPopup(false);
     };
 
-    // Example data for cards
     const resources = [
         {
             id: 1,
             imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
             title: 'Tutorial',
-            description: 'Cute tutorial letting uses know what theyy will watch.',
-            url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
+            description: 'Cute tutorial letting users know what they will watch.',
+            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
             color: 'indigo',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U'
-        },
-         {
-            id: 2,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
-            description: 'Cute tutorial letting uses know what theyy will watch.',
-            url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U'
-        },
-         {
-            id: 3,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
-            description: 'Cute tutorial letting uses know what theyy will watch.',
-            url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U'
-        },
-         {
-            id: 4,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
-            description: 'Cute tutorial letting uses know what theyy will watch.',
-            url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U'
-        },
-         {
-            id: 5,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
-            description: 'Cute tutorial letting uses know what theyy will watch.',
-            url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U'
-        },
-         {
-            id: 6,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
-            description: 'Cute tutorial letting uses know what theyy will watch.',
-            url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U'
         },
         // Add more resources as needed
     ];
@@ -90,7 +45,7 @@ const Explain: React.FC = () => {
                                     {resource.description}
                                 </p>
                                 <a href={resource.learnMoreUrl} className={`inline-block bg-${resource.color}-500 hover:bg-${resource.color}-600 text-white px-4 py-2 rounded-full`}>Learn More</a>
-                                <button onClick={() => openPopup(resource.url)} className={`inline-block bg-${resource.color}-500 hover:bg-${resource.color}-600 text-white px-4 py-2 rounded-full ml-2`}>Watch Video</button>
+                                <button onClick={() => openPopup(resource.learnMoreUrl)} className={`inline-block bg-${resource.color}-500 hover:bg-${resource.color}-600 text-white px-4 py-2 rounded-full ml-2`}>Watch Video</button>
                             </div>
                         </div>
                     ))}
