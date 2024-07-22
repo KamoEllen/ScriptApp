@@ -1,8 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Explain: React.FC = () => {
     const [showPopup, setShowPopup] = useState<boolean>(false);
     const [videoUrl, setVideoUrl] = useState<string>('');
+
+    useEffect(() => {
+        // Function to handle clicks outside the popup
+        const handleClickOutside = (event: MouseEvent) => {
+            const popup = document.getElementById('video-popup');
+            if (popup && !popup.contains(event.target as Node)) {
+                closePopup();
+            }
+        };
+
+        // Add event listener when the popup is shown
+        if (showPopup) {
+            document.addEventListener('mousedown', handleClickOutside);
+        } else {
+            document.removeEventListener('mousedown', handleClickOutside);
+        }
+
+        // Clean up event listener on component unmount
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [showPopup]);
 
     const openPopup = (url: string) => {
         // Extract video ID from the YouTube URL
@@ -25,22 +47,6 @@ const Explain: React.FC = () => {
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
             color: 'indigo',
         },
-        {
-            id: 2,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
-            description: 'Cute tutorial letting users know what they will watch.',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
-        },
-        {
-            id: 3,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
-            description: 'Cute tutorial letting users know what they will watch.',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
-        },
         // Add more resources as needed
     ];
 
@@ -53,15 +59,12 @@ const Explain: React.FC = () => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {resources.map((resource) => (
-                        <div key={resource.id} className={`bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden`}>
+                        <div key={resource.id} className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden">
                             <img src={resource.imageUrl} alt={resource.title} className="w-full h-64 object-cover" />
                             <div className="p-4 md:p-6">
                                 <h3 className={`text-xl font-semibold text-${resource.color}-500 dark:text-${resource.color}-300 mb-2`}>{resource.title}</h3>
-                                <p className="text-gray-700 dark:text-gray-300 mb-4 two-lines">
-                                    {resource.description}
-                                </p>
-                                
-                                <button onClick={() => openPopup(resource.learnMoreUrl)} className={`bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg `}>Watch Video</button>
+                                <p className="text-gray-700 dark:text-gray-300 mb-4">{resource.description}</p>
+                                <button onClick={() => openPopup(resource.learnMoreUrl)} className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg">Watch Video</button>
                             </div>
                         </div>
                     ))}
@@ -70,7 +73,7 @@ const Explain: React.FC = () => {
 
             {/* Popup */}
             {showPopup && (
-                <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
+                <div id="video-popup" className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
                     <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden">
                         <button className="absolute top-2 right-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" onClick={closePopup}>
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -88,3 +91,4 @@ const Explain: React.FC = () => {
 };
 
 export default Explain;
+
