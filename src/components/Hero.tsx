@@ -27,7 +27,7 @@ export const Hero = () => {
             <span>
               your script supervision{" "}
             </span>{" "}
-            <span className="inline bg-gradient-to-r from-green-500 to-green-200 text-transparent bg-clip-text">
+            <span className="inline  text-green-500  bg-clip-text">
               {" "}
               experience?
             </span>
