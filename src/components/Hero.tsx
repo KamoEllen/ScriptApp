@@ -42,8 +42,12 @@ export const Hero = () => {
               your script supervision{" "}
             </span>{" "}
             <span className="inline text-green-500 bg-clip-text">
-              experience?
+              experience
             </span>
+             <span className="inline text-green-200 bg-clip-text">
+              experience
+            </span>
+            
           </h2>
         </main>
 
