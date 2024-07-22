@@ -1,19 +1,5 @@
 import React, { useState } from 'react';
 
-interface VideoProps {
-    videoUrl: string[];
-}
-
-const Video: React.FC<VideoProps> = ({ videoUrl }) => {
-    const [modalUrl, setModalUrl] = useState('');
-
-    const openModal = (videoUrl: string) => {
-        setModalUrl(videoUrl);
-    };
-
-    const closeModal = () => {
-        setModalUrl('');
-    };
 
     return (
         <div className="video-wrapper">
