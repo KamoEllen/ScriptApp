@@ -1,8 +1,10 @@
-const Explain = () => {
-    const [showPopup, setShowPopup] = useState(false);
-    const [videoUrl, setVideoUrl] = useState('');
+import React, { useState } from 'react';
 
-    const openPopup = (url) => {
+const Explain: React.FC = () => {
+    const [showPopup, setShowPopup] = useState<boolean>(false); // Explicitly declare type for showPopup
+    const [videoUrl, setVideoUrl] = useState<string>(''); // Explicitly declare type for videoUrl
+
+    const openPopup = (url: string) => {
         setVideoUrl(url);
         setShowPopup(true);
     };
@@ -43,6 +45,7 @@ const Explain = () => {
                                     {resource.description}
                                 </p>
                                 <a href={resource.learnMoreUrl} className={`inline-block bg-${resource.color}-500 hover:bg-${resource.color}-600 text-white px-4 py-2 rounded-full`}>Learn More</a>
+                                <button onClick={() => openPopup(resource.url)} className={`inline-block bg-${resource.color}-500 hover:bg-${resource.color}-600 text-white px-4 py-2 rounded-full ml-2`}>Watch Video</button>
                             </div>
                         </div>
                     ))}
