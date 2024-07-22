@@ -25,6 +25,22 @@ const Explain: React.FC = () => {
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
             color: 'indigo',
         },
+        {
+            id: 2,
+            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
+            title: 'Tutorial',
+            description: 'Cute tutorial letting users know what they will watch.',
+            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
+            color: 'indigo',
+        },
+        {
+            id: 3,
+            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
+            title: 'Tutorial',
+            description: 'Cute tutorial letting users know what they will watch.',
+            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
+            color: 'indigo',
+        },
         // Add more resources as needed
     ];
 
