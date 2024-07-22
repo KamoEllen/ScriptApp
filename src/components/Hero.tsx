@@ -68,7 +68,7 @@ export const Hero = () => {
                 width="40"
                 height="40"
                 decoding="async"
-                className="h-6 w-6 max-w-none rounded-full ring-2 ring-white"
+                className="h-6 w-6 max-w-none rounded-full ring-2 ring-primary"
                 src="https://randomuser.me/api/portraits/men/29.jpg"
                 alt=""
               />
@@ -77,7 +77,7 @@ export const Hero = () => {
                 width="40"
                 height="40"
                 decoding="async"
-                className="h-6 w-6 max-w-none rounded-full ring-2 ring-white"
+                className="h-6 w-6 max-w-none rounded-full ring-2 ring-primary"
                 src="https://randomuser.me/api/portraits/men/90.jpg"
                 alt=""
               />
@@ -86,7 +86,7 @@ export const Hero = () => {
                 width="40"
                 height="40"
                 decoding="async"
-                className="h-6 w-6 max-w-none rounded-full ring-2 ring-white"
+                className="h-6 w-6 max-w-none rounded-full ring-2 ring-primary"
                 src="https://randomuser.me/api/portraits/men/75.jpg"
                 alt=""
               />
@@ -95,7 +95,7 @@ export const Hero = () => {
                 width="40"
                 height="40"
                 decoding="async"
-                className="h-6 w-6 max-w-none rounded-full ring-2 ring-white"
+                className="h-6 w-6 max-w-none rounded-full ring-2 ring-primary"
                 src="https://randomuser.me/api/portraits/men/5.jpg"
                 alt=""
               />
