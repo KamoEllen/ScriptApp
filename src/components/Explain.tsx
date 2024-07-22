@@ -60,7 +60,7 @@ const Explain: React.FC = () => {
                                 <p className="text-gray-700 dark:text-gray-300 mb-4 two-lines">
                                     {resource.description}
                                 </p>
-                                <a href={resource.learnMoreUrl} className={`inline-block bg-${resource.color}-500 hover:bg-${resource.color}-600 text-primary px-4 py-2 rounded-full`}>Learn More</a>
+                                <a href={resource.learnMoreUrl} className={`inline-block bg-${resource.color}-500 hover:bg-primary-600 text-secondary px-4 py-2 rounded-full`}>Learn More</a>
                                 <button onClick={() => openPopup(resource.learnMoreUrl)} className={`inline-block bg-${resource.color}-500 hover:bg-${resource.color}-600 text-white px-4 py-2 rounded-full ml-2`}>Watch Video</button>
                             </div>
                         </div>
