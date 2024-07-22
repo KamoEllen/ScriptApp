@@ -61,7 +61,7 @@ const Explain: React.FC = () => {
                                     {resource.description}
                                 </p>
                                 
-                                <button onClick={() => openPopup(resource.learnMoreUrl)} className={`bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full `}>Watch Video</button>
+                                <button onClick={() => openPopup(resource.learnMoreUrl)} className={`bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg `}>Watch Video</button>
                             </div>
                         </div>
                     ))}
