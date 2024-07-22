@@ -87,7 +87,7 @@ const Explain: React.FC = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
-                        <div className="aspect-w-16 aspect-h-9">
+                       <div className="w-full h-full">
                             <iframe className="w-full h-full video-iframe" src={videoUrl} title="YouTube Video" allowFullScreen />
                         </div>
                     </div>
