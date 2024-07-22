@@ -123,9 +123,9 @@ const Explain: React.FC = () => {
         </span>
          Features
       </h2>
-      <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground items-center">
+                {/*<p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground items-center">
      Learn how to work better in less time
-      </p>
+      </p> */}
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {resources.map((resource) => (
