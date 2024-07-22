@@ -7,6 +7,23 @@ export const Hero = () => {
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
+            
+              Ready 
+            </span>{" "}
+            to  
+          </h1>{" "}
+          <h2 className="inline">
+            
+              elevate
+            </span>{" "}
+            your script supervision  {" "}
+        <span className="inline bg-gradient-to-r from-green-500 to-green-200 text-transparent bg-clip-text">
+            >experience?</span>
+          </h2>
+        </main>
+        {/*
+        <main className="text-5xl md:text-6xl font-bold">
+          <h1 className="inline">
             <span className="inline bg-gradient-to-r from-green-500 to-green-200 text-transparent bg-clip-text">
               Ready 
             </span>{" "}
@@ -20,6 +37,7 @@ export const Hero = () => {
             <span className="text-green-500 underline" >experience?</span>
           </h2>
         </main>
+        */}
         
       
     <a target="_blank" rel="noreferrer" href="https://example.com" className="flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full bg-blue-100 px-7 py-2 transition-all hover:bg-blue-200">
