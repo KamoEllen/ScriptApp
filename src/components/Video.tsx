@@ -20,7 +20,7 @@ const Video: React.FC<VideoProps> = ({ videoUrls }) => {
             <div className="h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
                 <div className="container mx-auto px-4 py-8">
                     <h2 className="text-3xl font-semibold text-center text-gray-800 dark:text-gray-200 mb-8">
-                        Featured Resources
+                        Tutorial Resources
                     </h2>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
@@ -39,7 +39,7 @@ const Video: React.FC<VideoProps> = ({ videoUrls }) => {
                                         Description of Video {index + 1}. Replace with actual content.
                                     </p>
                                     <button
-                                        onClick={() => openModal(videoUrl)}
+                                        onClick={() => openModal(videoUrls)}
                                         className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-full"
                                     >
                                         Learn More
