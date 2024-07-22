@@ -99,7 +99,7 @@ export const Hero = () => {
                 src="https://randomuser.me/api/portraits/men/5.jpg"
                 alt=""
               />
-              <span className="flex-shrink-0 text-xs font-medium leading-5 text-secondary">+15</span>
+              <span className="flex-shrink-0 text-xs font-medium leading-5 text-primary">+15</span>
               
             </div>
 
