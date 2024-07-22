@@ -7,20 +7,23 @@ export const Hero = () => {
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
-            
-              Ready 
+            Ready{" "}
+            <span >
+              to
             </span>{" "}
-            to  
           </h1>{" "}
           <h2 className="inline">
-            
-              elevate
+            elevate{" "}
+            <span className="text-green-500">
+              your script supervision{" "}
             </span>{" "}
-            your script supervision  {" "}
-        <span className="inline bg-gradient-to-r from-green-500 to-green-200 text-transparent bg-clip-text">
-            >experience?</span>
+            <span className="inline bg-gradient-to-r from-green-500 to-green-200 text-transparent bg-clip-text">
+              {" "}
+              >experience?
+            </span>
           </h2>
         </main>
+
         {/*
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
