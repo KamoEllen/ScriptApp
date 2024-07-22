@@ -27,7 +27,7 @@ const Explain: React.FC = () => {
         },
          {
             id: 2,
-            imageUrl: 'https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg',
+            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
             title: 'Tutorial',
             description: 'Cute tutorial letting uses know what theyy will watch.',
             url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
@@ -36,7 +36,7 @@ const Explain: React.FC = () => {
         },
          {
             id: 3,
-            imageUrl: 'https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg',
+            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
             title: 'Tutorial',
             description: 'Cute tutorial letting uses know what theyy will watch.',
             url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
@@ -45,7 +45,7 @@ const Explain: React.FC = () => {
         },
          {
             id: 4,
-            imageUrl: 'https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg',
+            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
             title: 'Tutorial',
             description: 'Cute tutorial letting uses know what theyy will watch.',
             url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
@@ -54,7 +54,7 @@ const Explain: React.FC = () => {
         },
          {
             id: 5,
-            imageUrl: 'https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg',
+            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
             title: 'Tutorial',
             description: 'Cute tutorial letting uses know what theyy will watch.',
             url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
@@ -63,7 +63,7 @@ const Explain: React.FC = () => {
         },
          {
             id: 6,
-            imageUrl: 'https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg',
+            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
             title: 'Tutorial',
             description: 'Cute tutorial letting uses know what theyy will watch.',
             url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
