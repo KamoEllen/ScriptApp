@@ -100,6 +100,9 @@ export const Hero = () => {
                 alt=""
               />
               <span className="flex-shrink-0 text-xs font-medium leading-5">+15</span>
+              <a className="flex-shrink-0 text-xs font-medium" >
+            Download Now, Save Time Later
+          </a>
             </div>
 
             <div className="h-4 border-l border-gray-700"></div>
