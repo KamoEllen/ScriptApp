@@ -22,7 +22,7 @@ export const Hero = () => {
         </main>
         
       
-      <a target="_blank" rel="noreferrer" href="https://example.com" className="mx-auto flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full bg-blue-100 px-7 py-2 transition-all hover:bg-blue-200">
+      <a target="_blank" rel="noreferrer" href="https://thescriptapp.com" className="mx-auto flex max-w-fit items-center justify-center overflow-hidden rounded-full bg-blue-100 px-7 py-2 transition-all hover:bg-blue-200">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-5 w-5 text-[#1d9bf0]">
     <circle cx="12" cy="12" r="10" fill="currentColor" />
   </svg>
