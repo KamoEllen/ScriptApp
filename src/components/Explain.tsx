@@ -17,22 +17,36 @@ const Explain: React.FC = () => {
             }
         };
 
+        const handleEscapeKey = (event: KeyboardEvent) => {
+            if (event.key === 'Escape') {
+                closePopup();
+            }
+        };
+
         if (showPopup) {
             document.addEventListener('mousedown', handleClickOutside);
-            // Disable scrolling on the body
-            document.body.style.overflow = 'hidden';
+            document.addEventListener('keydown', handleEscapeKey);
+            disableBodyScroll();
         } else {
             document.removeEventListener('mousedown', handleClickOutside);
-            // Enable scrolling on the body
-            document.body.style.overflow = 'auto';
+            document.removeEventListener('keydown', handleEscapeKey);
+            enableBodyScroll();
         }
 
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
-            // Clean up by enabling scrolling on the body if component unmounts
-            document.body.style.overflow = 'auto';
+            document.removeEventListener('keydown', handleEscapeKey);
+            enableBodyScroll();
         };
     }, [showPopup]);
+
+    const disableBodyScroll = () => {
+        document.body.style.overflow = 'hidden';
+    };
+
+    const enableBodyScroll = () => {
+        document.body.style.overflow = 'auto';
+    };
 
     const openPopup = (url: string) => {
         const videoId = url.split('v=')[1];
@@ -49,47 +63,7 @@ const Explain: React.FC = () => {
         {
             id: 1,
             imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
-            description: 'Cute tutorial letting users know what they will watch.',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
-        },
-         {
-            id: 2,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
-            description: 'Cute tutorial letting users know what they will watch.',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
-        },
-         {
-            id: 3,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
-            description: 'Cute tutorial letting users know what they will watch.',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
-        },
-        {
-            id: 4,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
-            description: 'Cute tutorial letting users know what they will watch.',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
-        },
-        {
-            id: 5,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
-            description: 'Cute tutorial letting users know what they will watch.',
-            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
-        },
-        {
-            id: 6,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial',
+            title: 'Tutorial 1',
             description: 'Cute tutorial letting users know what they will watch.',
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
             color: 'indigo',
@@ -98,13 +72,8 @@ const Explain: React.FC = () => {
     ];
 
     return (
-        {/*
-         <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
-    <div className="container mx-auto px-4 py-8 mb-4 overflow-y-auto">
-                */}
-        <div className="h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
+        <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
             <div className="container mx-auto px-4 py-8 mb-4">
-       
                 <h2 className="text-3xl font-semibold text-center text-gray-800 dark:text-gray-200 mb-8">
                     Featured Resources
                 </h2>
@@ -125,28 +94,25 @@ const Explain: React.FC = () => {
 
             {/* Popup */}
             {showPopup && (
-    <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
-        <div ref={popupRef} className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden">
-            <button className="absolute top-2 right-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" onClick={closePopup}>
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-            </button>
-            <div className="w-full h-full">
-                <iframe className="w-full h-full video-iframe" src={videoUrl} title="YouTube Video" allowFullScreen style={{ width: '800px', height: '450px' }} />
-            </div>
+                <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
+                    <div ref={popupRef} className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden">
+                        <button className="absolute top-2 right-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" onClick={closePopup}>
+                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                        <div className="w-full h-full">
+                            <iframe className="w-full h-full video-iframe" src={videoUrl} title="YouTube Video" allowFullScreen style={{ width: '800px', height: '450px' }} />
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
-    </div>
-)}
-
-
-        </div>
-        
-        
     );
 };
 
 export default Explain;
+
 
  {/*        {showPopup && (
     <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
