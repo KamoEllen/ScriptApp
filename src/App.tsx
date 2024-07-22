@@ -1,7 +1,7 @@
 {/* import VideoPlaylist from "./components/VideoPlaylist"; */}
 import { FAQ } from "./components/FAQ";
 import { About } from "./components/About";
-import { Explain } from "./components/Explain";
+import Explain from "./components/Explain";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { HowItWorks } from "./components/HowItWorks";
