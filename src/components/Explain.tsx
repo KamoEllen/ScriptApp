@@ -71,7 +71,7 @@ const Explain: React.FC = () => {
         {
             id: 2,
             imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial 1',
+            title: 'Tutorial 2',
             description: 'Cute tutorial letting users know what they will watch.',
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
             color: 'indigo',
@@ -79,7 +79,7 @@ const Explain: React.FC = () => {
         {
             id: 3,
             imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial 1',
+            title: 'Tutorial 3',
             description: 'Cute tutorial letting users know what they will watch.',
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
             color: 'indigo',
@@ -87,7 +87,23 @@ const Explain: React.FC = () => {
         {
             id: 4,
             imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
-            title: 'Tutorial 1',
+            title: 'Tutorial 4',
+            description: 'Cute tutorial letting users know what they will watch.',
+            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
+            color: 'indigo',
+        },
+          {
+            id: 5,
+            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
+            title: 'Tutorial 5',
+            description: 'Cute tutorial letting users know what they will watch.',
+            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
+            color: 'indigo',
+        },
+          {
+            id: 6,
+            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
+            title: 'Tutorial 6',
             description: 'Cute tutorial letting users know what they will watch.',
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
             color: 'indigo',
