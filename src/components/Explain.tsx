@@ -1,33 +1,35 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 const Explain: React.FC = () => {
     const [showPopup, setShowPopup] = useState<boolean>(false);
     const [videoUrl, setVideoUrl] = useState<string>('');
 
+    const popupRef = useRef<HTMLDivElement>(null);
+
     useEffect(() => {
-        // Function to handle clicks outside the popup
         const handleClickOutside = (event: MouseEvent) => {
-            const popup = document.getElementById('video-popup');
-            if (popup && !popup.contains(event.target as Node)) {
+            // Check if the click target is outside the popup and not on the iframe
+            if (
+                popupRef.current &&
+                !popupRef.current.contains(event.target as Node) &&
+                !(event.target as HTMLElement).classList.contains('video-iframe')
+            ) {
                 closePopup();
             }
         };
 
-        // Add event listener when the popup is shown
         if (showPopup) {
             document.addEventListener('mousedown', handleClickOutside);
         } else {
             document.removeEventListener('mousedown', handleClickOutside);
         }
 
-        // Clean up event listener on component unmount
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
     }, [showPopup]);
 
     const openPopup = (url: string) => {
-        // Extract video ID from the YouTube URL
         const videoId = url.split('v=')[1];
         setVideoUrl(`https://www.youtube.com/embed/${videoId}`);
         setShowPopup(true);
@@ -73,15 +75,15 @@ const Explain: React.FC = () => {
 
             {/* Popup */}
             {showPopup && (
-                <div id="video-popup" className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
-                    <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden">
+                <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
+                    <div ref={popupRef} className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden">
                         <button className="absolute top-2 right-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" onClick={closePopup}>
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
                         <div className="aspect-w-16 aspect-h-9">
-                            <iframe className="w-full h-full" src={videoUrl} title="YouTube Video" allowFullScreen />
+                            <iframe className="w-full h-full video-iframe" src={videoUrl} title="YouTube Video" allowFullScreen />
                         </div>
                     </div>
                 </div>
@@ -91,4 +93,3 @@ const Explain: React.FC = () => {
 };
 
 export default Explain;
-
