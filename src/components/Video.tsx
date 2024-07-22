@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 interface VideoProps {
-    videoUrls: string[];
+    videoUrl: string[];
 }
 
-const Video: React.FC<VideoProps> = ({ videoUrls }) => {
+const Video: React.FC<VideoProps> = ({ videoUrl }) => {
     const [modalUrl, setModalUrl] = useState('');
 
     const openModal = (videoUrl: string) => {
@@ -39,7 +39,7 @@ const Video: React.FC<VideoProps> = ({ videoUrls }) => {
                                         Description of Video {index + 1}. Replace with actual content.
                                     </p>
                                     <button
-                                        onClick={() => openModal(videoUrls)}
+                                        onClick={() => openModal(videoUrl)}
                                         className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-full"
                                     >
                                         Learn More
