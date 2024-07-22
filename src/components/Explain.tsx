@@ -99,11 +99,12 @@ const Explain: React.FC = () => {
 
     return (
         {/*
+         <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
+    <div className="container mx-auto px-4 py-8 mb-4 overflow-y-auto">
+                */}
         <div className="h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
             <div className="container mx-auto px-4 py-8 mb-4">
-                */}
-        <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
-    <div className="container mx-auto px-4 py-8 mb-4 overflow-y-auto">
+       
                 <h2 className="text-3xl font-semibold text-center text-gray-800 dark:text-gray-200 mb-8">
                     Featured Resources
                 </h2>
