@@ -57,6 +57,8 @@ export const Hero = () => {
           <a className="w-full md:w-1/3" href="#">
             Download Now, Save Time Later
           </a>
+          </div>
+        <div className="space-y-4 md:space-y-0 md:space-x-4">
 
           {/* Ratings */}
           <div className="flex space-x-4 items-center text-white">
