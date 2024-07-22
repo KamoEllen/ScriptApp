@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 const Explain = () => {
     const [showPopup, setShowPopup] = useState(false);
     const [videoUrl, setVideoUrl] = useState('');
