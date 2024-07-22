@@ -27,11 +27,14 @@ export const Hero = () => {
       </path>
     </svg>
     */}
-        <a target="_blank" rel="noreferrer" href="https://example.com"
-    className="mx-auto flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full bg-blue-100 px-7 py-2 transition-all hover:bg-blue-200">
-   <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+        {/* <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
  preserveAspectRatio="xMidYMid meet">
+ */}
+        <a target="_blank" rel="noreferrer" href="https://example.com"
+    className="mx-auto flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full bg-blue-100 px-7 py-2 transition-all hover:bg-blue-200">
+  
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 204" class="h-5 w-5 text-[#1d9bf0]">
 
 
 <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
