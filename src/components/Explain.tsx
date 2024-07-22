@@ -17,11 +17,11 @@ const Explain = () => {
         {
             id: 1,
             imageUrl: 'https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg',
-            title: 'Headless UI',
-            description: 'Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.',
-            url: '#',
+            title: 'Tutorial',
+            description: 'Cute tutorial letting uses know what theyy will watch.',
+            url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
             color: 'indigo',
-            learnMoreUrl: '#'
+            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U'
         },
         // Add more resources as needed
     ];
