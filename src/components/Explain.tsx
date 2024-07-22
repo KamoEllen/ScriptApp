@@ -115,9 +115,17 @@ const Explain: React.FC = () => {
         <section id="tutoials" className="container py-24 sm:py-32">
         <div className="min-h-screen bg-secondary-100 dark:bg-secondary-900 text-gray-800 dark:text-white">
             <div className="container mx-auto px-4 py-8 mb-4">
-                <h2 className="text-3xl font-semibold text-center text-gray-800 dark:text-gray-200 mb-8">
-                    Featured Resources
-                </h2>
+                
+                <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
+        
+        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+           Learn{" "}
+        </span>
+         Features
+      </h2>
+      <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
+     Tutorial  
+      </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {resources.map((resource) => (
