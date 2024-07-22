@@ -22,7 +22,7 @@ const Explain: React.FC = () => {
             title: 'Tutorial',
             description: 'Cute tutorial letting uses know what theyy will watch.',
             url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'indigo',
+            color: 'black',
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U'
         },
          {
