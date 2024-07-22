@@ -123,7 +123,7 @@ const Explain: React.FC = () => {
         </span>
          Features
       </h2>
-      <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground item-center">
+      <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground items-center">
      Learn how to work better in less time
       </p>
 
