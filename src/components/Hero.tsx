@@ -51,7 +51,7 @@ fill="#000000" stroke="none">
 -298 101 -446 126 -634 110z"/>
 </g>
 </svg>
-    <p class="text-sm font-semibold text-[#1d9bf0]">Compatible with : IOS - IPAD - MacOS</p>
+    <p className="text-sm font-semibold text-[#1d9bf0]">Compatible with : IOS - IPAD - MacOS</p>
   </a>
         
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
