@@ -71,12 +71,12 @@ export const Testimonials = () => {
   return (
     <section id="testimonials" className="container py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold">
-        Discover Why
+        Discover Why The  
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          Customers{" "}
+          Community{" "}
         </span>
-        Love The Script App
+        Loves The Script App
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
