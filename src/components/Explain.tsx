@@ -18,11 +18,11 @@ const Explain: React.FC = () => {
     const resources = [
         {
             id: 1,
-            imageUrl: 'https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg',
+            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
             title: 'Tutorial',
             description: 'Cute tutorial letting uses know what theyy will watch.',
             url: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
-            color: 'black',
+            color: 'indigo',
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U'
         },
          {
