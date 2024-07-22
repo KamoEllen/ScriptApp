@@ -72,6 +72,7 @@ const Explain: React.FC = () => {
     ];
 
     return (
+        <section id="tutoials" className="container py-24 sm:py-32">
         <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
             <div className="container mx-auto px-4 py-8 mb-4">
                 <h2 className="text-3xl font-semibold text-center text-gray-800 dark:text-gray-200 mb-8">
@@ -108,6 +109,7 @@ const Explain: React.FC = () => {
                 </div>
             )}
         </div>
+            </section >
     );
 };
 
