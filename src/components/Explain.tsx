@@ -8,7 +8,6 @@ const Explain: React.FC = () => {
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
-            // Check if the click target is outside the popup and not on the iframe
             if (
                 popupRef.current &&
                 !popupRef.current.contains(event.target as Node) &&
@@ -20,12 +19,18 @@ const Explain: React.FC = () => {
 
         if (showPopup) {
             document.addEventListener('mousedown', handleClickOutside);
+            // Disable scrolling on the body
+            document.body.style.overflow = 'hidden';
         } else {
             document.removeEventListener('mousedown', handleClickOutside);
+            // Enable scrolling on the body
+            document.body.style.overflow = 'auto';
         }
 
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
+            // Clean up by enabling scrolling on the body if component unmounts
+            document.body.style.overflow = 'auto';
         };
     }, [showPopup]);
 
