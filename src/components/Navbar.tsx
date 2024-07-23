@@ -59,6 +59,7 @@ export const Navbar = () => {
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between">
           <NavigationMenuItem className="font-medium flex items-center">
+            {/*
             <a
               rel="noreferrer noopener"
               href="/"
@@ -69,6 +70,18 @@ export const Navbar = () => {
                 <span className="ml-2 ">The Script App</span>
               </div>
             </a>
+            */}
+            <a
+                            rel="noreferrer noopener"
+                            href="/"
+                            className="ml-2 font-bold text-xl flex items-center"
+                            style={{ fontFamily: 'Viga, sans-serif' }}
+                        >
+                            <div className="flex items-center">
+                                <LogoIcon />
+                                <span className="ml-2">The Script App</span>
+                            </div>
+                        </a>
           </NavigationMenuItem>
 
           {/* Mobile Menu Trigger */}
