@@ -102,7 +102,7 @@ const Explain: React.FC = () => {
         },
           {
             id: 6,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
+            imageUrl: 'https://i.pinimg.com/originals/b6/1a/3b/b61a3bc87c65e8395aba1557ce1dd6e6.jpg',
             title: 'Tutorial 6',
             description: 'Cute tutorial letting users know what they will watch.',
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
@@ -110,7 +110,7 @@ const Explain: React.FC = () => {
         },
         {
             id: 7,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
+            imageUrl: 'https://i.pinimg.com/originals/b6/1a/3b/b61a3bc87c65e8395aba1557ce1dd6e6.jpg',
             title: 'Tutorial 7',
             description: 'Cute tutorial letting users know what they will watch.',
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
@@ -118,7 +118,7 @@ const Explain: React.FC = () => {
         },
           {
             id: 8,
-            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
+            imageUrl: 'https://i.pinimg.com/originals/b6/1a/3b/b61a3bc87c65e8395aba1557ce1dd6e6.jpg',
             title: 'Tutorial 8',
             description: 'Cute tutorial letting users know what they will watch.',
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
