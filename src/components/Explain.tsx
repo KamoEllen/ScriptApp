@@ -133,7 +133,7 @@ const Explain: React.FC = () => {
                 <div className="container mx-auto px-4 py-8 mb-4">
                     <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
                         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                            Learn
+                            Learn{" "}
                         </span>
                         Features
                     </h2>
