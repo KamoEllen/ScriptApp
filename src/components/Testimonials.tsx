@@ -16,8 +16,9 @@ export const Testimonials = () => {
           Here is what other script supervisors have to say about their experience
         </p>
       </div>
+        {/* bg-white dark:bg-gray-700 shadow-md border-gray-200/50  */}
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 w-full">
-        <div className="border p-7 rounded-xl bg-white dark:bg-gray-700 shadow-md border-gray-200/50 col-span-2 flex flex-col gap-y-10 justify-between">
+        <div className="border p-7 rounded-xl bg-muted/50 col-span-2 flex flex-col gap-y-10 justify-between">
           <div className="flex flex-col gap-y-3.5">
             <p className="font-bold text-xl">Big Text</p>
             <p className="font-medium text-gray-700 dark:text-gray-300">
