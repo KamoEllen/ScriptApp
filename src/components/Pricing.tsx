@@ -100,7 +100,7 @@ export const Pricing = () => {
                 {/* Pricing Details Section */}
                 <div className="flex flex-col items-center justify-center lg:items-end lg:justify-start lg:mt-12">
                   <div className="border rounded-lg mt-6 p-8 lg:p-16 border-gray-300 text-center lg:text-left">
-                    <div className="text-3xl md:text-4xl mb-2 font-bold px-6 ">£{pricing.price} <span className="text-sm text-muted-foreground">/month</span></div>
+                    <div className="text-3xl md:text-4xl mb-2 font-bold px-8 ">£{pricing.price} <span className="text-sm text-muted-foreground">/month</span></div>
                     <Button>{pricing.buttonText}</Button>
                   </div>
                 </div>
