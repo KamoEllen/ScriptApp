@@ -130,7 +130,7 @@ const Explain: React.FC = () => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {resources.map((resource) => (
-                        <div key={resource.id} className="bg-muted/50  rounded-lg overflow-hidden">
+                        <div key={resource.id} className="bg-muted/50 border rounded-lg overflow-hidden">
                             <img src={resource.imageUrl} alt={resource.title} className="w-full h-64 object-cover" />
                             <div className="p-4 md:p-6">
                                 <h3 className={`text-xl font-semibold text-${resource.color}-500 dark:text-${resource.color}-300 mb-2`}>{resource.title}</h3>
