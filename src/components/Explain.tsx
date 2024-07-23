@@ -108,6 +108,22 @@ const Explain: React.FC = () => {
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
             color: 'indigo',
         },
+        {
+            id: 7,
+            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
+            title: 'Tutorial 5',
+            description: 'Cute tutorial letting users know what they will watch.',
+            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
+            color: 'indigo',
+        },
+          {
+            id: 8,
+            imageUrl: 'https://th.bing.com/th/id/OIP.i2Xyg2lc5voJPtGXRfvFMwHaFk?rs=1&pid=ImgDetMain',
+            title: 'Tutorial 6',
+            description: 'Cute tutorial letting users know what they will watch.',
+            learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
+            color: 'indigo',
+        },
         // Add more resources as needed
     ];
 
@@ -123,10 +139,10 @@ const Explain: React.FC = () => {
         </span>
          Features
       </h2>
-                {/*<p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground items-center">
+         <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground md:text-center">
      Learn how to work better in less time
-      </p>
-      bg-white dark:bg-gray-800 shadow-lg*/}
+      </p>       
+      {/*bg-white dark:bg-gray-800 shadow-lg*/}
                 {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"> */}
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 
