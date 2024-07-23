@@ -68,7 +68,7 @@ export const Pricing = () => {
           <Card
             className={
               pricing.popular === PopularPlanType.YES
-                ? "drop-shadow-xl shadow-black/10 dark:shadow-white/10"
+                ? "drop-shadow-xl bg-muted/50 "
                 : ""
             }
           >
