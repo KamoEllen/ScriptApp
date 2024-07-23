@@ -63,7 +63,7 @@ const Explain: React.FC = () => {
         {
             id: 1,
             imageUrl: 'https://i.pinimg.com/originals/b6/1a/3b/b61a3bc87c65e8395aba1557ce1dd6e6.jpg',
-            
+            title: 'Tutorial 1',
             description: 'Cute tutorial letting users know what they will watch.',
             learnMoreUrl: 'https://www.youtube.com/watch?v=b2F4yMDyy_U',
             color: 'indigo',
@@ -151,7 +151,7 @@ const Explain: React.FC = () => {
                             <img src={resource.imageUrl} alt={resource.title} className="w-full h-64 object-cover" />
                             <div className="p-4 md:p-6">
                                 <h3 className={`text-xl font-semibold text-${resource.color}-500 dark:text-${resource.color}-300 mb-2`}>{resource.title}</h3>
-                                <h3 className="text-gray-700 dark:text-gray-300 mb-4">{resource.description}</h3>
+                                <p className="text-gray-700 dark:text-gray-300 mb-4">{resource.description}</p>
                                 <button onClick={() => openPopup(resource.learnMoreUrl)} className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg">Watch Video</button>
                             </div>
                         </div>
