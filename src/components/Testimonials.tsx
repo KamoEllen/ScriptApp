@@ -20,7 +20,7 @@ export const Testimonials = () => {
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 w-full">
         <div className="border p-7 rounded-xl bg-muted/50 col-span-2 flex flex-col gap-y-10 justify-between">
           <div className="flex flex-col gap-y-3.5">
-            <p className="font-bold text-xl">Big Text</p>
+            {/* <p className="font-bold text-xl">Big Text</p> */}
             <p className="font-medium text-gray-700 dark:text-gray-300">
              The Script App has made my job so much easier! I can't imagine going back to the old way of doing things.
             </p>
@@ -33,7 +33,7 @@ export const Testimonials = () => {
         </div>
         <div className="border p-7 rounded-xl bg-muted/50 col-span-3 flex flex-col gap-y-10 justify-between">
           <div className="flex flex-col gap-y-3.5">
-            <p className="font-bold text-xl">Big Text</p>
+            {/* <p className="font-bold text-xl">Big Text</p> */}
             <p className="font-medium text-gray-700 dark:text-gray-300">
               I've been using The Script App for a few months now and I love it! It's so easy to use and has all the features I need to keep my scripts organized and up-to-date.
             </p>
@@ -46,7 +46,7 @@ export const Testimonials = () => {
         </div>
         <div className="border p-7 rounded-xl bg-muted/50 col-span-3 flex flex-col gap-y-10 justify-between">
           <div className="flex flex-col gap-y-3.5">
-            <p className="font-bold text-xl">Big Text</p>
+             {/* <p className="font-bold text-xl">Big Text</p> */}
             <p className="font-medium text-gray-700 dark:text-gray-300">
               Don't know how I managed without The Script App before. It's a game changer for script supervisors! Highly recommend it to anyone in the industry.
             </p>
@@ -59,7 +59,7 @@ export const Testimonials = () => {
         </div>
         <div className="border p-7 rounded-xl bg-muted/50 col-span-2 flex flex-col gap-y-10 justify-between">
           <div className="flex flex-col gap-y-3.5">
-            <p className="font-bold text-xl">Reliable Big Text</p>
+            {/* <p className="font-bold text-xl">Big Text</p> */}
             <p className="font-medium text-gray-700 dark:text-gray-300">
              I love being able to covert my scripts to PDF and share them with my team in seconds. The Script App is a must-have for script supervisors!
             </p>
