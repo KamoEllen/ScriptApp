@@ -127,8 +127,9 @@ const Explain: React.FC = () => {
      Learn how to work better in less time
       </p>
       bg-white dark:bg-gray-800 shadow-lg*/}
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"> */}
+ <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
                     {resources.map((resource) => (
                         <div key={resource.id} className="bg-muted/50 border rounded-lg overflow-hidden">
                             <img src={resource.imageUrl} alt={resource.title} className="w-full h-64 object-cover" />
