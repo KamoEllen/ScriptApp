@@ -5,7 +5,7 @@ export const Testimonials = () => {
       <div className="flex items-center justify-center flex-col gap-y-2 py-5">
         <h2 className="text-3xl md:text-4xl font-bold">
           Discover Why The{' '}
-          <span className="font-bold text-green-700">
+          <span className="font-bold text-green-500">
             
             Community{' '}
           </span>
