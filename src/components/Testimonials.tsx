@@ -1,6 +1,7 @@
 export const Testimonials = () => {
   return (
-    <section className="max-w-5xl mx-auto w-full px-10 dark:bg-gray-800 dark:text-white">
+    
+      <section id="testimonials" className="container py-24 sm:py-32">
       <div className="flex items-center justify-center flex-col gap-y-2 py-5">
         <h2 className="text-3xl md:text-4xl font-bold">
           Discover Why The{' '}
