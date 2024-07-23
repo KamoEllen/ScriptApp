@@ -33,7 +33,7 @@ export const ContactUs = () => {
   return (
     <section
       id="faq"
-      className="container py-24 sm:py-32"
+      className="container py-24 sm:py-32 bg-muted/50"
     >
       
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
