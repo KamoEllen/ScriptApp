@@ -31,7 +31,7 @@ export const Testimonials = () => {
             <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Script Supervisor</p>
           </div>
         </div>
-        <div className="border p-7 rounded-xl bg-white dark:bg-gray-700 shadow-md border-gray-200/50 col-span-3 flex flex-col gap-y-10 justify-between">
+        <div className="border p-7 rounded-xl bg-muted/50 col-span-3 flex flex-col gap-y-10 justify-between">
           <div className="flex flex-col gap-y-3.5">
             <p className="font-bold text-xl">Big Text</p>
             <p className="font-medium text-gray-700 dark:text-gray-300">
@@ -44,7 +44,7 @@ export const Testimonials = () => {
             <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Script Supervisor</p>
           </div>
         </div>
-        <div className="border p-7 rounded-xl bg-white dark:bg-gray-700 shadow-md border-gray-200/50 col-span-3 flex flex-col gap-y-10 justify-between">
+        <div className="border p-7 rounded-xl bg-muted/50 col-span-3 flex flex-col gap-y-10 justify-between">
           <div className="flex flex-col gap-y-3.5">
             <p className="font-bold text-xl">Big Text</p>
             <p className="font-medium text-gray-700 dark:text-gray-300">
@@ -57,7 +57,7 @@ export const Testimonials = () => {
             <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Script Supervisor</p>
           </div>
         </div>
-        <div className="border p-7 rounded-xl bg-white dark:bg-gray-700 shadow-md border-gray-200/50 col-span-2 flex flex-col gap-y-10 justify-between">
+        <div className="border p-7 rounded-xl bg-muted/50 col-span-2 flex flex-col gap-y-10 justify-between">
           <div className="flex flex-col gap-y-3.5">
             <p className="font-bold text-xl">Reliable Big Text</p>
             <p className="font-medium text-gray-700 dark:text-gray-300">
