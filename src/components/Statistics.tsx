@@ -51,8 +51,9 @@ export const Statistics = () => {
               <div className="flex items-center space-x-4">
                 <div className="flex-shrink-0">{icon}</div>
                 <div className="flex flex-col">
-                  <span className="font-bold text-gray-800">{description}</span>
-                  <span className="text-gray-600">{quantity}</span>
+                  <span className="font-bold">{description}</span>
+                  <span>{quantity}</span>
+                  {/* text-gray-800 & text-gray-600 */}
                 </div>
               </div>
             </div>
