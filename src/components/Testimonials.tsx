@@ -5,8 +5,8 @@ export const Testimonials = () => {
       <div className="flex items-center justify-center flex-col gap-y-2 py-5">
         <h2 className="text-3xl md:text-4xl font-bold">
           Discover Why The{' '}
-          <span className="bg-gradient-to-b from-primary-500 to-primary-600 text-transparent bg-clip-text">
-            {' '}
+          <span className="text-green bg-clip-text">
+            
             Community{' '}
           </span>
           Loves The Script App
@@ -19,57 +19,54 @@ export const Testimonials = () => {
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 w-full">
         <div className="border p-7 rounded-xl bg-white dark:bg-gray-700 shadow-md border-gray-200/50 col-span-2 flex flex-col gap-y-10 justify-between">
           <div className="flex flex-col gap-y-3.5">
-            <p className="font-bold text-xl">Brilliant house to rent</p>
+            <p className="font-bold text-xl">Big Text</p>
             <p className="font-medium text-gray-700 dark:text-gray-300">
-              All eFounders teams have moved to Cycle for all things product management and it is truly a game-changer.
+             The Script App has made my job so much easier! I can't imagine going back to the old way of doing things.
             </p>
           </div>
           <div className="flex flex-col">
             <img src="https://randomuser.me/api/portraits/women/54.jpg" alt="Jane Cooper" className="h-10 w-10" />
             <p className="pt-2 text-sm font-semibold">Jane Cooper</p>
-            <p className="text-sm font-medium text-gray-700 dark:text-gray-400">CEO at ABC Corporation</p>
+            <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Script Supervisor</p>
           </div>
         </div>
         <div className="border p-7 rounded-xl bg-white dark:bg-gray-700 shadow-md border-gray-200/50 col-span-3 flex flex-col gap-y-10 justify-between">
           <div className="flex flex-col gap-y-3.5">
-            <p className="font-bold text-xl">Efficient customer support</p>
+            <p className="font-bold text-xl">Big Text</p>
             <p className="font-medium text-gray-700 dark:text-gray-300">
-              The customer support team at our service is incredibly responsive and helpful. They went above and beyond to
-              assist me with my issue.
+              I've been using The Script App for a few months now and I love it! It's so easy to use and has all the features I need to keep my scripts organized and up-to-date.
             </p>
           </div>
           <div className="flex flex-col">
             <img src="https://randomuser.me/api/portraits/women/30.jpg" alt="Emily Smith" className="h-10 w-10" />
             <p className="pt-2 text-sm font-semibold">Emily Smith</p>
-            <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Marketing Manager at ABC Company</p>
+            <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Script Supervisor</p>
           </div>
         </div>
         <div className="border p-7 rounded-xl bg-white dark:bg-gray-700 shadow-md border-gray-200/50 col-span-3 flex flex-col gap-y-10 justify-between">
           <div className="flex flex-col gap-y-3.5">
-            <p className="font-bold text-xl">Seamless integration process</p>
+            <p className="font-bold text-xl">Big Text</p>
             <p className="font-medium text-gray-700 dark:text-gray-300">
-              Integrating our systems with our service was smooth and hassle-free. The support team guided us through every
-              step of the process.
+              Don't know how I managed without The Script App before. It's a game changer for script supervisors! Highly recommend it to anyone in the industry.
             </p>
           </div>
           <div className="flex flex-col">
             <img src="https://randomuser.me/api/portraits/women/90.jpg" alt="Sarah Brown" className="h-10 w-10" />
             <p className="pt-2 text-sm font-semibold">Sarah Brown</p>
-            <p className="text-sm font-medium text-gray-700 dark:text-gray-400">CTO at XYZ Corporation</p>
+            <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Script Supervisor</p>
           </div>
         </div>
         <div className="border p-7 rounded-xl bg-white dark:bg-gray-700 shadow-md border-gray-200/50 col-span-2 flex flex-col gap-y-10 justify-between">
           <div className="flex flex-col gap-y-3.5">
-            <p className="font-bold text-xl">Reliable service uptime</p>
+            <p className="font-bold text-xl">Reliable Big Text</p>
             <p className="font-medium text-gray-700 dark:text-gray-300">
-              Our service has consistently maintained high uptime, ensuring that our operations run smoothly without any
-              disruptions.
+             I love being able to covert my scripts to PDF and share them with my team in seconds. The Script App is a must-have for script supervisors!
             </p>
           </div>
           <div className="flex flex-col">
             <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="James White" className="h-10 w-10" />
             <p className="pt-2 text-sm font-semibold">James White</p>
-            <p className="text-sm font-medium text-gray-700 dark:text-gray-400">COO at XYZ Corporation</p>
+            <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Script Supervisor</p>
           </div>
         </div>
       </div>
