@@ -125,11 +125,12 @@ const Explain: React.FC = () => {
       </h2>
                 {/*<p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground items-center">
      Learn how to work better in less time
-      </p> */}
+      </p>
+      bg-white dark:bg-gray-800 shadow-lg*/}
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {resources.map((resource) => (
-                        <div key={resource.id} className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden">
+                        <div key={resource.id} className="bg-muted/50  rounded-lg overflow-hidden">
                             <img src={resource.imageUrl} alt={resource.title} className="w-full h-64 object-cover" />
                             <div className="p-4 md:p-6">
                                 <h3 className={`text-xl font-semibold text-${resource.color}-500 dark:text-${resource.color}-300 mb-2`}>{resource.title}</h3>
