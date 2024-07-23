@@ -1,4 +1,5 @@
-import one from '../assets/Design community-pana.svg';
+{/* import one from '../assets/Design community-pana.svg'; */}
+import one from '../assets/Design-pana-animate.svg';
 export const HeroCards = () => {
   return (
     <div className="hidden lg:flex flex-row flex-wrap gap-8 relative">
