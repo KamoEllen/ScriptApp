@@ -31,7 +31,7 @@ export const About = () => {
               </p>
             </div>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex bg-muted/50 flex-col gap-4">
               <Statistics />
             </div>
           </div>
