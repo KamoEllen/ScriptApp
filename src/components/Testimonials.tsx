@@ -26,7 +26,7 @@ export const Testimonials = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <img src="https://randomuser.me/api/portraits/women/54.jpg" alt="Jane Cooper" className="h-10 w-10" />
+            <img src="https://randomuser.me/api/portraits/women/54.jpg" alt="Jane Cooper" className="h-10 w-10 max-w-none rounded-full ring-2 ring-primary" />
             <p className="pt-2 text-sm font-semibold">Jane Cooper</p>
             <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Script Supervisor</p>
           </div>
@@ -39,7 +39,7 @@ export const Testimonials = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <img src="https://randomuser.me/api/portraits/women/30.jpg" alt="Emily Smith" className="h-10 w-10" />
+            <img src="https://randomuser.me/api/portraits/women/30.jpg" alt="Emily Smith" className="h-10 w-10 max-w-none rounded-full ring-2 ring-primary" />
             <p className="pt-2 text-sm font-semibold">Emily Smith</p>
             <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Script Supervisor</p>
           </div>
@@ -52,7 +52,7 @@ export const Testimonials = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <img src="https://randomuser.me/api/portraits/women/90.jpg" alt="Sarah Brown" className="h-10 w-10" />
+            <img src="https://randomuser.me/api/portraits/women/90.jpg" alt="Sarah Brown" className="h-10 w-10 max-w-none rounded-full ring-2 ring-primary" />
             <p className="pt-2 text-sm font-semibold">Sarah Brown</p>
             <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Script Supervisor</p>
           </div>
@@ -65,7 +65,7 @@ export const Testimonials = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="James White" className="h-10 w-10" />
+            <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="James White" className="h-10 w-10 max-w-none rounded-full ring-2 ring-primary" />
             <p className="pt-2 text-sm font-semibold">James White</p>
             <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Script Supervisor</p>
           </div>
