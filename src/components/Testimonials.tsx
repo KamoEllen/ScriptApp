@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+{/*import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import {
   Card,
   CardContent,
@@ -22,50 +22,7 @@ interface TestimonialProps {
   comment: string;
 }
 
-// Define testimonials array using imported image variables
-const testimonials: TestimonialProps[] = [
-  {
-    image: image1,
-    name: "John Lee",
-    userName: "script supervisor",
-    comment: "The Script App has made my job so much easier! I can't imagine going back to the old way of doing things.",
-  },
-  {
-    image: image2,
-    name: "Ellie Williams",
-    userName: "script supervisor",
-    comment:
-      "I've been using The Script App for a few months now and I love it! It's so easy to use and has all the features I need to keep my scripts organized and up-to-date.",
-  },
-  {
-    image: image3,
-    name: "Deon Anderson",
-    userName: "script supervisor",
-    comment:
-      "Don't know how I managed without The Script App before. It's a game changer for script supervisors! Highly recommend it to anyone in the industry.",
-  },
-  {
-    image: image4,
-    name: "Jia Mason",
-    userName: "script supervisor",
-    comment:
-      "One of the best tools I've used for script supervision!",
-  },
-  {
-    image: image5,
-    name: "Emory King",
-    userName: "script supervisor",
-    comment:
-      "Perfect for script supervisors who want to streamline their workflow and save time on administrative tasks. Highly recommend it!",
-  },
-  {
-    image: image6,
-    name: "Lesego Mokone",
-    userName: "script supervisor",
-    comment:
-      " I love being able to covert my scripts to PDF and share them with my team in seconds. The Script App is a must-have for script supervisors!",
-  },
-];
+*/}
 
 export const Testimonials = () => {
   return (
