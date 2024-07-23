@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Testimonials = () => {
   return (
     <section className="max-w-5xl mx-auto w-full px-10 dark:bg-gray-800 dark:text-white">
