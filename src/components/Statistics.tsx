@@ -46,7 +46,8 @@ export const Statistics = () => {
       <div className="max-w-4xl mx-auto "> 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 ">
           {stats.map(({ icon, quantity, description }: StatsProps, index: number) => (
-            <div key={index} className="p-4 bg-gray rounded-lg border border-black border-opacity-10 hover:border-opacity-20 transition duration-300 ease-in-out">
+            <div key={index} className="p-4 bg-muted/50  rounded-lg border  transition duration-300 ease-in-out">
+              {/* bg-gray border-black border-opacity-10 hover:border-opacity-20 */}
               <div className="flex items-center space-x-4">
                 <div className="flex-shrink-0">{icon}</div>
                 <div className="flex flex-col">
