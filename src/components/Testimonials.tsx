@@ -15,9 +15,10 @@ export const Testimonials = () => {
             The App
           </span>
         </h2>
-        {/* Why Are So Many Script Supervisors Using The App ? */}
+        {/* Why Are So Many Script Supervisors Using The App ? Here is what other script supervisors have to say about their experience*/}
         <p className="text-xl text-gray-500 dark:text-gray-300 pt-4 pb-8">
-          Here is what other script supervisors have to say about their experience
+          
+          Don't take our word for it - this is what industry professionals have to say
         </p>
       </div>
         {/* bg-white dark:bg-gray-700 shadow-md border-gray-200/50  */}
