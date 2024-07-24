@@ -48,6 +48,9 @@ export const Newsletter = () => {
         <p className="text-xl text-muted-foreground text-center mt-4 mb-8">
           Be the first to know when we launch new features and updates.
         </p>
+        <p className="text-sm text-gray-300 mt-2">
+                **Don't worry, we won't spam you.**
+              </p>
 
         <form
           className="flex flex-col w-full md:flex-row md:w-6/12 lg:w-4/12 mx-auto gap-4 md:gap-2"
