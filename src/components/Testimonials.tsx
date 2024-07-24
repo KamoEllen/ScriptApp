@@ -4,14 +4,18 @@ export const Testimonials = () => {
       <section id="testimonials" className="container py-24 sm:py-32">
       <div className="flex items-center justify-center flex-col gap-y-2 py-5">
         <h2 className="text-3xl md:text-4xl font-bold">
-          Discover Why The{' '}
+          Why The{' '}
           <span className="font-bold text-green-500">
             
-            Community{' '}
+            So Many{' '}
           </span>
-          Loves The Script App
+          Script Supervisors Using
+           <span className="font-bold text-green-500">
+            
+            The App{' '}
+          </span>
         </h2>
-
+        {/* Why Are So Many Script Supervisors Using The App ? */}
         <p className="text-xl text-gray-500 dark:text-gray-300 pt-4 pb-8">
           Here is what other script supervisors have to say about their experience
         </p>
