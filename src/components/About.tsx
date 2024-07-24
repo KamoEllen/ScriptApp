@@ -26,9 +26,9 @@ export const About = () => {
               <p className="text-xl text-muted-foreground mt-4">
                 We are here to help and answer any question you might have. We look forward to hearing from you.
               </p>
-              <p className="text-sm text-gray-300 mt-2">
-                **We won't spam you, we promise!**
-              </p>
+              <span className="text-sm text-gray-300 mt-2">
+                (" ") **We won't spam you, we promise!**
+              </span>
             </div>
 
             <div className="flex flex-col gap-4">
