@@ -28,12 +28,13 @@ const features = [
   {
     icon: <CheckCheck className="text-green-500" />,
     title: "Your documents will talk to each other",
-    description: "Daily production reports gather information from the facing pages and master breakdowns. Generate customizable editors log from information in the facing pages and export to a mailing list",
+    description: "Daily production reports gather information from the facing pages and master breakdowns. Generate customizable editors log from information in the facing pages and export to a mailing list.",
   },
+  //description: "Tailor the interface to your project's needs, make the template your own adapting to unique production and editor requirements.",
   {
     icon: <CheckCheck className="text-green-500" />,
     title: "Customizable Workflow",
-    description: "Tailor the interface to your project's needs, make the template your own adapting to unique production and editor requirements.",
+    description: "Make the template your own. Adapting for unique production and editor requirements, customize the interface to your project's needs.",
   },
   {
     icon: <CheckCheck className="text-green-500" />,
@@ -52,7 +53,7 @@ const features = [
   {
     icon: <CheckCheck className="text-green-500" />,
     title: "Performance Tracking ",
-    description: "No more maths! input the figures once and let The Script App calculate page counts , timings etc.",
+    description: "No more maths! Input the figures once and let The Script App calculate page counts, timings etc.",
   },
 ];
 
@@ -70,7 +71,7 @@ export const HowItWorks = () => {
          Features
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-      Focus less on the admin and more on the supervising  
+      Focus less on admin and more on supervising  
       </p>
 {/* Here are some of the key features that make The Script App the best choice for script supervisors. */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
