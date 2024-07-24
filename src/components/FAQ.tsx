@@ -39,7 +39,7 @@ const FAQList: FAQProps[] = [
     question:
       "Can I suggest new features for The Script App?",
     answer:
-      "Absolutely! We are always looking for new ways to improve The Script App and would love to hear your feedback. If you have ideas for new features or improvements, please get in touch. We're here to listen",
+      "Absolutely! We are always looking for new ways to improve The Script App and would love to hear your feedback. If you have ideas for new features or improvements, please get in touch. We're here to listen.",
     value: "item-5",
   },
   
