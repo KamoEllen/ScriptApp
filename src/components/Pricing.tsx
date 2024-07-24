@@ -81,7 +81,7 @@ export const Pricing = () => {
             <CardHeader>
               <CardTitle>
                 {/* bg-gradient-to-r from-green-300 via-green-400 to-green-500 text-transparent bg-clip-text */}
-                <span className="inline text-green-500 ">
+                <span className="inline text-green-500 focus:underline">
                   {pricing.title}
                 </span>
               </CardTitle>
