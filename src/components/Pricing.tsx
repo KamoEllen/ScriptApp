@@ -114,6 +114,12 @@ export const Pricing = () => {
                     <div className="text-3xl md:text-4xl mb-2 font-bold px-8 ">£{pricing.price} <span className="text-sm text-muted-foreground">/month</span></div>
                     <Button>{pricing.buttonText}</Button>
                   </div>
+                  {/*
+                  <button className="relative overflow-hidden bg-green-500 text-white py-2 px-4 rounded-md">
+      <span className="absolute top-0 left-0 w-full h-full bg-green-300 opacity-75"></span>
+      <span className="relative z-10">{pricing.buttonText}</span>
+    </button>
+    */}
                 </div>
               </div>
             </CardContent>
