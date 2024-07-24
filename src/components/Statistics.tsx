@@ -24,7 +24,7 @@ export const Statistics = () => {
       quantity: "012 345 56788",
       description: "Phone Number",
     },
-    */}
+    */},
     {
       icon: (
         <svg
