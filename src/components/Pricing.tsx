@@ -37,7 +37,7 @@ const pricingList: PricingProps[] = [
       "Export and send via email",
       "Secure storage integration",
       "Optimized for iOS",
-      "Efficient script editing and compare/merge amendments",
+      "Efficient script editing, compare/merge amendments",
       "Auto-fill repetitive information and calculations",
       "Real-time collaboration",
       "Track changes",
