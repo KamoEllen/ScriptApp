@@ -9,10 +9,10 @@ export const Testimonials = () => {
             
             So Many{' '}
           </span>
-          Script Supervisors Are Using
+          Script Supervisors Are Using{' '}
            <span className="font-bold text-green-500">
             
-            The App{' '}
+            The App
           </span>
         </h2>
         {/* Why Are So Many Script Supervisors Using The App ? */}
