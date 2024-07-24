@@ -81,9 +81,14 @@ export const Pricing = () => {
             <CardHeader>
               <CardTitle>
                 {/* bg-gradient-to-r from-green-300 via-green-400 to-green-500 text-transparent bg-clip-text */}
-                <span className="inline text-green-500 focus:underline">
+                {/* <span className="inline text-green-500 focus:underline">
                   {pricing.title}
                 </span>
+                */}
+                <span className="inline text-green-500" style={{ textDecoration: 'underline' }}>
+  {pricing.title}
+</span>
+
               </CardTitle>
               {/*prime-  plan is optimal or highly valued, much like how "prime" is used to describe top quality or importance in various contexts.  */}
               <CardDescription>{pricing.description}</CardDescription>
