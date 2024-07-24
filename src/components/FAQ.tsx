@@ -14,20 +14,20 @@ interface FAQProps {
 const FAQList: FAQProps[] = [
   {
     question: "What features does The Script App offer?",
-    answer: "The Script App offers a variety of features designed to simplify the life of script supervisors. These include importing scripts, adding tramlines, auto-filling aspects of the continuity reports, and exporting or sending scripts via email. It's all interconnected to eliminate manual retyping and help streamline your workflow.",
+    answer: "The Script App offers a variety of features designed to simplify the life of script supervisors. These include importing scripts, adding tramlines, auto-filling aspects of the continuity reports and exporting/sending documents via email. It's all interconnected to eliminate manual retyping and help streamline your workflow.",
     value: "item-1",
   },
   {
     question: "How does the 24-hour free trial work?",
     answer:
-      "You can enjoy a 24-hour free trial of The Script App to explore all its features. During this period, you can import scripts, edit them, and use all functionalities without any charge.This is perfect for dailies.If you decide to continue using The Script App after the free trial, you can subscribe for only £20 per month and cancel within the first 30 days of each month.",
+      "You can enjoy a 24-hour free trial of The Script App to explore all its features. During this period, you can import scripts, edit them and use all functionalities without any charge. This is perfect for dailies. If you decide to continue using The Script App after the free trial, you can subscribe for only £20 per month and cancel within the first 30 days.",
     value: "item-2",
   },
   {
     question:
       "How did The Script App come to be?",
     answer:
-      "With extensive experience in the script supervising and Film & TV industry, we recognized the constant struggle of a work and life balance.This led us to create The Script App, designed to elevate workflow and save time on administrative tasks.",
+      "With extensive experience in script supervising and Film & TV industry, we recognized the constant struggle of a work/life balance. This led us to create The Script App, designed to elevate workflow and save time on administrative tasks.",
     value: "item-3",
   },
   {
@@ -39,7 +39,7 @@ const FAQList: FAQProps[] = [
     question:
       "Can I suggest new features for The Script App?",
     answer:
-      "Absolutely! We are always looking for new ways to improve The Script App and would love to hear your feedback.If you have ideas for new features or improvements, please reach out to our support team. We&amp;re here to listen",
+      "Absolutely! We are always looking for new ways to improve The Script App and would love to hear your feedback. If you have ideas for new features or improvements, please get in touch. We're here to listen",
     value: "item-5",
   },
   
