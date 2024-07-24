@@ -8,10 +8,11 @@ interface FeatureProps {
 }
 
 const features = [
+  
   {
     icon: <CheckCheck className="text-green-500" />,
-    title: "Import scripts",
-    description: "Import, edit and manage scripts. Merge amendments with The Script App. Spend less time on administrative tasks and more time supervising.",
+    title: "Real-Time Collaboration",
+    description: "Keep the main and second units in sync throughout production. Update and share documents instantly to maintain clear communication.",
   },
   {
     icon: <CheckCheck className="text-green-500" />,
@@ -21,8 +22,8 @@ const features = [
     // Point 1: Data is always ready for you to use at work
   {
     icon: <CheckCheck className="text-green-500" />,
-    title: "Always Accessible",
-    description: "Store and access folders, photos, and reports securely from any location, ensuring your data is always ready for you to use at work.Save work offline and sync when there is internet access.",
+    title: "Access from anywhere",
+    description: "Store and access folders, photos, and reports securely from any location, ensuring your data is always ready for you to use at work. Save work offline and sync when there is internet access.",
   },
   {
     icon: <CheckCheck className="text-green-500" />,
@@ -32,12 +33,12 @@ const features = [
   {
     icon: <CheckCheck className="text-green-500" />,
     title: "Customizable Workflow",
-    description: "Tailor the interface to your project's needs, optimizing efficiency and adapting to unique production and editor requirements.",
+    description: "Tailor the interface to your project's needs, make the template your own adapting to unique production and editor requirements.",
   },
   {
     icon: <CheckCheck className="text-green-500" />,
-    title: "Real-Time Collaboration",
-    description: "Keep the main and second units in sync throughout production. Update and share documents instantly to maintain clear communication.",
+    title: "Import scripts",
+    description: "Import, edit and manage scripts. Merge amendments with The Script App. Spend less time on administrative tasks and more time supervising.",
   },
 
 
