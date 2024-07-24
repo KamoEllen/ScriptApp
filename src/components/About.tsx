@@ -26,6 +26,7 @@ export const About = () => {
               <p className="text-xl text-muted-foreground mt-4">
                 We are here to help and answer any question you might have. We look forward to hearing from you.
               </p>
+              <hr></hr>
               <p className="text-sm items-center text-gray-300 mt-2">
                 **We won't spam you, we promise!**
               </p>
