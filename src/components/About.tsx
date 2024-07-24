@@ -27,7 +27,7 @@ export const About = () => {
                 We are here to help and answer any question you might have. We look forward to hearing from you.
               </p>
               <hr></hr>
-              <p className="text-sm items-center text-gray-300 mt-2">
+              <p className="text-sm  justify-center text-gray-300 mt-2">
                 **We won't spam you, we promise!**
               </p>
             </div>
