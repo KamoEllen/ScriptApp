@@ -4,12 +4,12 @@ export const Testimonials = () => {
       <section id="testimonials" className="container py-24 sm:py-32">
       <div className="flex items-center justify-center flex-col gap-y-2 py-5">
         <h2 className="text-3xl md:text-4xl font-bold">
-          Why {' '}
+          Why Are {' '}
           <span className="font-bold text-green-500">
             
             So Many{' '}
           </span>
-          Script Supervisors Are Using{' '}
+          Script Supervisors Using{' '}
            <span className="font-bold text-green-500">
             
             The App
