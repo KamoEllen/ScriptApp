@@ -66,7 +66,7 @@ export const Pricing = () => {
       </h3>
       */}
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
-        Enjoy 24h free trial on us and only pay 20 pounds a month after that. After the first 30 days , you can cancel your subscription anytime and it will remain active until the end of the current billing cycle
+        Enjoy 24h free trial on us and only pay 20 pounds a month after that. After the first 30 days , you can cancel your subscription anytime and it will remain active until the end of the current billing cycle.
       </h3>
       <div className="flex justify-center">
         <div className="w-full lg:w-3/4 xl:w-2/3">
