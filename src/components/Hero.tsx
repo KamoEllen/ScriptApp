@@ -44,9 +44,9 @@ export const Hero = () => {
             <span className="inline text-green-500 bg-clip-text">
               experience
             </span>
-             <span className="inline text-green-200 bg-clip-text">
+            
               ?
-            </span>
+            {/* <span className="inline text-green-200 bg-clip-text"> </span> */}
             
           </h2>
         </main>
