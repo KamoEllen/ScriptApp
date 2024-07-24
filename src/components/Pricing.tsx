@@ -32,7 +32,7 @@ const pricingList: PricingProps[] = [
       "Get access to all features and tools within the first 24h.",
     buttonText: "Start Free Trial",
     benefitList: [
-     "Import scripts or different side types with ease",
+     "Import scripts of different file types with ease",
       "Create customisable reports",
       "Export and send via email",
       "Secure storage integration",
@@ -80,7 +80,8 @@ export const Pricing = () => {
           >
             <CardHeader>
               <CardTitle>
-                <span className="inline bg-gradient-to-r from-green-300 via-green-400 to-green-500 text-transparent bg-clip-text">
+                {/* bg-gradient-to-r from-green-300 via-green-400 to-green-500 text-transparent bg-clip-text */}
+                <span className="inline text-green-500 ">
                   {pricing.title}
                 </span>
               </CardTitle>
