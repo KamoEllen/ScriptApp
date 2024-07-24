@@ -47,7 +47,7 @@ const features = [
   {
     icon: <CheckCheck className="text-green-500" />,
     title: "Secure Storage",
-    description: "Ensure the security of your data with encrypted storage for folders, photos, and reports, protecting your information.",
+    description: "Ensure the security of your data with encrypted storage for folders, photos and reports, protecting your information.",
   },
 
   {
