@@ -8,7 +8,7 @@ const Newsletter: React.FC = () => {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    emailjs.init('YOUR_USER_ID'); // Replace 'YOUR_USER_ID' with your actual user ID
+    emailjs.init('4UDRjSQKlKIX9WDLC'); // Replace 'YOUR_USER_ID' with your actual user ID
   }, []);
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
