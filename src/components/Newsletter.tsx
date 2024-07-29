@@ -68,8 +68,8 @@ const Newsletter: React.FC = () => {
         <div className="flex-1">
           <input 
             type="text" 
-            name="name" 
-            id="name" 
+            name="to_act_name" 
+            id="to_act_name" 
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Name" 
@@ -79,8 +79,8 @@ const Newsletter: React.FC = () => {
         <div className="flex-1">
           <input 
             type="email" 
-            name="email" 
-            id="email" 
+            name="to_name" 
+            id="to_name" 
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Email" 
